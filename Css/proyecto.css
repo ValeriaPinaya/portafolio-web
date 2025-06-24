@@ -10,7 +10,7 @@
     justify-content:center ;
 }
 .proyecto{
-    background-color: rgb(rgb(78, 5, 43);
+    background-color: rgb(rgb(78, 5, 43));
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
@@ -18,11 +18,13 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.l);
     text-align: center;
 }
+
 .proyecto img{
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
+    
 .proyecto h3{
     margin-top: 10px;
     font-size: 1.2rem;
@@ -42,6 +44,6 @@
 
 }
 .proyecto a:hover{
-    background-color: #0056b;
+    background-color: red;
 
 }
