@@ -1,0 +1,42 @@
+.experiencia{
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    color:rgb(8, 6, 6)
+}
+.container-experiencia{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    font-size: large;
+    margin: 8rem;
+}
+/* Celular(pantallas pequeñas,hasta 767px) */
+@media (max-width: 767px) {
+    /*Agregando el responsivo de las secciones experiencia*/
+     .container-experiencia{
+        width: 100%;
+        margin: 0rem;
+    }
+}
+    .experiencia {
+         width: 100%;
+         padding: 1rem;
+         margin-top: 1rem;
+         font-size: small; 
+    }
+
+/* Tableta(Pantallas medianas, entre 768px y 1023px) */
+    @media (min-width: 768px) and (max-width:1023px){
+    .experiencia{
+        width: 75%;
+    }
+    }
+
+/* Escritorio (pantallas anchas, 1024px y superiores) */
+    @media (min-width: 1024px) {
+      .experiencia{
+            width: 75%;
+        }
+    }

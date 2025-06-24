@@ -1,0 +1,47 @@
+.proyectos{
+    width: 80%;
+    padding: 1rem;
+    background: var;
+}
+.galeria-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:center ;
+}
+.proyecto{
+    background-color: rgb(rgb(78, 5, 43);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33% - 40px); /*Ajusta el ancho segun la cantidad de proyectos a mostraren una fila*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.l);
+    text-align: center;
+}
+.proyecto img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.proyecto h3{
+    margin-top: 10px;
+    font-size: 1.2rem;
+
+}
+.proyecto p{
+    margin: 10px 0;
+
+}
+.proyecto a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: blanchedalmond;
+    border-radius: 5px;
+
+}
+.proyecto a:hover{
+    background-color: #0056b;
+
+}
